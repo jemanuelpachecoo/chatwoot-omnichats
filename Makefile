@@ -56,7 +56,13 @@ debug:
 debug_worker:
 	overmind connect worker
 
-docker: 
+build:
 	docker build -t $(APP_NAME) -f ./docker/Dockerfile .
+
+tag:
+	docker tag $(APP_NAME):latest jemanuelp/chatwoot:latest
+
+push:
+	docker push jemanuelp/chatwoot:latest
 
 .PHONY: setup db_create db_migrate db_seed db_reset db console server burn docker run force_run force_run_tunnel debug debug_worker
