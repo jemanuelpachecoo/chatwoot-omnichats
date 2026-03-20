@@ -26,7 +26,7 @@ describe('useBranding', () => {
   describe('replaceInstallationName', () => {
     it('should replace "Chatwoot" with installation name when both text and installation name are provided', () => {
       const { replaceInstallationName } = useBranding();
-      const result = replaceInstallationName('Welcome to Chatwoot');
+      const result = replaceInstallationName('Welcome to Omnichats');
 
       expect(result).toBe('Welcome to MyCompany');
     });
@@ -44,18 +44,18 @@ describe('useBranding', () => {
       mockGlobalConfig.value = {};
 
       const { replaceInstallationName } = useBranding();
-      const result = replaceInstallationName('Welcome to Chatwoot');
+      const result = replaceInstallationName('Welcome to Omnichats');
 
-      expect(result).toBe('Welcome to Chatwoot');
+      expect(result).toBe('Welcome to Omnichats');
     });
 
     it('should return original text when globalConfig is not available', () => {
       mockGlobalConfig.value = undefined;
 
       const { replaceInstallationName } = useBranding();
-      const result = replaceInstallationName('Welcome to Chatwoot');
+      const result = replaceInstallationName('Welcome to Omnichats');
 
-      expect(result).toBe('Welcome to Chatwoot');
+      expect(result).toBe('Welcome to Omnichats');
     });
 
     it('should return original text when text is empty or null', () => {
@@ -88,7 +88,7 @@ describe('useBranding', () => {
       };
 
       const { replaceInstallationName } = useBranding();
-      const result = replaceInstallationName('Welcome to Chatwoot');
+      const result = replaceInstallationName('Welcome to Omnichats');
 
       expect(result).toBe('Welcome to My-Company & Co.');
     });

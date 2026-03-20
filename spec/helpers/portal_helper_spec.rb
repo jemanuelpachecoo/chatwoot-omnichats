@@ -261,7 +261,7 @@ describe PortalHelper do
 
   describe '#set_og_image_url' do
     let(:portal_name) { 'Chatwoot Portal' }
-    let(:title) { 'Welcome to Chatwoot' }
+    let(:title) { 'Welcome to Omnichats' }
 
     context 'when CDN URL is present' do
       before do

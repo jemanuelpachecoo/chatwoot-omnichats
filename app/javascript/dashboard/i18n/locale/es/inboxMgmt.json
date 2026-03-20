@@ -13,7 +13,7 @@
     "CREATE_FLOW": {
       "CHANNEL": {
         "TITLE": "Elegir canal",
-        "BODY": "Elija el proveedor que desea integrar con Chatwoot."
+        "BODY": "Elija el proveedor que desea integrar con Omnichats."
       },
       "INBOX": {
         "TITLE": "Crear bandeja de entrada",
@@ -438,7 +438,7 @@
       },
       "AUTH": {
         "TITLE": "Elija un canal",
-        "DESC": "Chatwoot soporta widgets de Live Chat, Facebook Messenger, perfiles de Twitter, WhatsApp, correos electrónicos, etc., como canales. Si quieres construir un canal personalizado, puedes crearlo usando el canal API. Para empezar, elige uno de los canales a continuación.",
+        "DESC": "Omnichats soporta widgets de Live Chat, Facebook Messenger, perfiles de Twitter, WhatsApp, correos electrónicos, etc., como canales. Si quieres construir un canal personalizado, puedes crearlo usando el canal API. Para empezar, elige uno de los canales a continuación.",
         "TITLE_NEXT": "Complete the setup",
         "TITLE_FINISH": "Voilà!",
         "CHANNEL": {
@@ -496,11 +496,11 @@
       },
       "DETAILS": {
         "TITLE": "Detalles de la bandeja de entrada",
-        "DESC": "En el menú desplegable de abajo, selecciona la página de Facebook que quieres conectar a Chatwoot. También puede dar un nombre personalizado a su bandeja de entrada para una mejor identificación."
+        "DESC": "En el menú desplegable de abajo, selecciona la página de Facebook que quieres conectar a Omnichats. También puede dar un nombre personalizado a su bandeja de entrada para una mejor identificación."
       },
       "FINISH": {
         "TITLE": "¡Se ha clavado!",
-        "DESC": "Has terminado de integrar correctamente tu página de Facebook con Chatwoot. La próxima vez que un cliente envíe un mensaje a tu Página, la conversación aparecerá automáticamente en tu bandeja de entrada.<br>También le estamos proporcionando un script de widget que puede agregar fácilmente a su sitio web. Una vez que esto está en vivo en tu sitio web, los clientes pueden enviarle mensajes directamente desde su sitio web sin la ayuda de ninguna herramienta externa y la conversación aparecerá aquí, en Chatwoot.<br>¿Genial, eh? Bueno, estamos seguros de que intentaremos ser :)"
+        "DESC": "Has terminado de integrar correctamente tu página de Facebook con Omnichats. La próxima vez que un cliente envíe un mensaje a tu Página, la conversación aparecerá automáticamente en tu bandeja de entrada.<br>También le estamos proporcionando un script de widget que puede agregar fácilmente a su sitio web. Una vez que esto está en vivo en tu sitio web, los clientes pueden enviarle mensajes directamente desde su sitio web sin la ayuda de ninguna herramienta externa y la conversación aparecerá aquí, en Omnichats.<br>¿Genial, eh? Bueno, estamos seguros de que intentaremos ser :)"
       },
       "EMAIL_PROVIDER": {
         "TITLE": "Selecciona tu proveedor de correo",
