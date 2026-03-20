@@ -23,7 +23,7 @@
     "BACK_AS_SOON_AS_POSSIBLE": "ჩვენ დავბრუნდებით რაც შეიძლება მალე"
   },
   "REPLY_TIME": {
-    "IN_A_FEW_MINUTES": "Typically replies in a few minutes",
+    "IN_A_FEW_MINUTES": "",
     "IN_A_FEW_HOURS": "Typically replies in a few hours",
     "IN_A_DAY": "Typically replies in a day",
     "BACK_IN_HOURS": "ჩვენ ონლაინ დავბრუნდებით {n} საათში | ჩვენ ონლაინ დავბრუნდებით {n} საათში",
@@ -57,7 +57,7 @@
   "BUBBLE": {
     "LABEL": "Chat with us"
   },
-  "POWERED_BY": "Powered by Chatwoot",
+  "POWERED_BY": "Powered by Omnichats",
   "EMAIL_PLACEHOLDER": "Please enter your email",
   "CHAT_PLACEHOLDER": "Type your message",
   "TODAY": "Today",
